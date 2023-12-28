@@ -8,7 +8,7 @@ const WeatherStackAPI = () => {
     const [error, setError] = useState(null);
 
     const getWeatherDetail = async () => {
-            const apiUrl = `http://api.weatherstack.com/current?access_key=17dc1d5c83c551110cda86802a1353e3&query=${city}`;
+            const apiUrl = `//api.weatherstack.com/current?access_key=17dc1d5c83c551110cda86802a1353e3&query=${city}`;
             console.log(apiUrl);
             
             const response = await axios.get(apiUrl);
