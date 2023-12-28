@@ -1,0 +1,23 @@
+.delete_todo{
+    cursor: pointer;
+    color: rgb(239, 94, 94);
+}
+.action_wrapper {
+    display: flex;
+}
+
+div.row{
+    position: relative;
+}
+
+div.completed:after {
+    content: "";
+    border-top: 1px solid;
+    width: 62%;
+    position: absolute;
+    top: 40%;
+}
+
+#undo_btn{
+    margin-left: 5px;
+}
