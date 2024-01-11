@@ -8,7 +8,7 @@ function App() {
   return (
     <Container>
          <Row>
-            <Col md={3}>
+            <Col md={3}> 
               <TodoForm />
               <WeatherStackAPI />
             </Col>
