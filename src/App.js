@@ -7,15 +7,15 @@ import WeatherStackAPI from './Weather';
 function App() {
   return (
     <Container>
-        <WeatherStackAPI />
-         {/* <Row>
+         <Row>
             <Col md={3}>
               <TodoForm />
+              <WeatherStackAPI />
             </Col>
             <Col>
               <TodoList />
             </Col>
-         </Row> */}
+         </Row>
       </Container>
   );
 }
