@@ -2,20 +2,20 @@ import './App.css';
 import TodoList from './components/TodoList/TodoList';
 import TodoForm from './components/TodoForm/TodoForm';
 import { Container, Row, Col } from 'react-bootstrap';
-// import WeatherStackAPI from './Weather';
+import WeatherStackAPI from './Weather';
 
 function App() {
   return (
     <Container>
-        {/* <WeatherStackAPI /> */}
-         <Row>
+        <WeatherStackAPI />
+         {/* <Row>
             <Col md={3}>
               <TodoForm />
             </Col>
             <Col>
               <TodoList />
             </Col>
-         </Row>
+         </Row> */}
       </Container>
   );
 }

@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const WeatherStackAPI = () => {
     const [data, setData] = useState(null);
-    const [city, setCity] = useState("Chandigarh");
+    const [city, setCity] = useState("New York");
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
